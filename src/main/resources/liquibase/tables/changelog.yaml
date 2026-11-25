@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: users/changelog.yaml
+      relativeToChangelogFile: true
+  - include:
+      file: bookings/changelog.yaml
+      relativeToChangelogFile: true
